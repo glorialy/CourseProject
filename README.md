@@ -49,3 +49,11 @@ Sample usage of Class AspectSentimentAnalyzer:
 Feedbacks can be found in `src/aspectBasedSentimentAnalysis.ipynb` at the very end. We did some manual testing to check the performance of the model. 
 
 
+## UI
+```
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirement.txt
+
+python3.10 -m streamlit run ./src/review_ui.py
+```
