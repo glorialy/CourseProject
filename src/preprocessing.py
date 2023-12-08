@@ -14,7 +14,7 @@ import pandas as pd
 import re
 import string
 
-filename = "Womens Clothing E-Commerce Reviews.csv"
+filename = "../data/Womens Clothing E-Commerce Reviews.csv"
 
 # Function to preprocess the text
 def preprocessText(text, token = False):
