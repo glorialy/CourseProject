@@ -1,5 +1,5 @@
 # Note To Reviewers:
-The demo presentation is saved as "presentation-demo.mov". Since Github doesn't support vedio preview yet, please download the file to open the file. 
+The demo presentation is saved as [presentation-demo.mov](https://github.com/glorialy/CourseProject/raw/main/presentation-demo.mov). Since Github doesn't support vedio preview yet, please download the file to open the file. 
 
 # Fashion Recommendations with In-depth Review Analysis
 
