@@ -57,3 +57,9 @@ python3.11 -m pip install -r requirements.txt
 
 python3.11 -m streamlit run ./src/review_ui.py
 ```
+based on different inputs, the system will output different ranking result. For example: 
+- with input *color* and *confortable*:
+![input1](input_set1.png)
+
+- with input *fit* and *fabric*:
+![input2](input_set2.png)

@@ -22,7 +22,7 @@ def display_ranked_list(objects):
     show_data = objects.merge(raw_data, how='inner')[display_cols] \
             .groupby("Clothing ID", as_index=False) \
             .agg({"Rating": "mean", "Positive Feedback Count": "mean", "Division Name": "unique", "Department Name": 'unique', 'Class Name':'unique', "combined_score": "unique"}) \
-            .sort_values(by='combined_score')
+            .sort_values(by='combined_score', ascending=False)
     return show_data.set_index("Clothing ID")
 
 class SemanticCompare:
