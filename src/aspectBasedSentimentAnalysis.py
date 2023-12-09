@@ -1,11 +1,16 @@
 import pandas as pd
+import nltk
 from nltk import sent_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 from preprocessing import preprocessText
+from constants import FILENAME, ASPECTS
 
 # Global variables
-FILENAME = "Womens Clothing E-Commerce Reviews.csv"
-ASPECTS = ["dress", "love", "fit", "size", "top", "color", "look", "wear", "fabric", "cute", "flattering", "comfortable"]
+# FILENAME = "Womens Clothing E-Commerce Reviews.csv"
+# ASPECTS = ["dress", "love", "fit", "size", "top", "color", "look", "wear", "fabric", "cute", "flattering", "comfortable"]
+
+nltk.download('vader_lexicon') 
+nltk.download('punkt')
 
 class AspectSentimentAnalyzer:
     def __init__(self):
