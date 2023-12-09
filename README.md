@@ -1,6 +1,5 @@
-# CourseProject
-
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+# Note To Reviewers:
+The demo presentation is saved as "presentation-demo.mov". Since Github doesn't support vedio preview yet, please download the file to open the file. 
 
 # Fashion Recommendations with In-depth Review Analysis
 
